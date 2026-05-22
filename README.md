@@ -82,6 +82,15 @@ Ou acesse diretamente pelo GitHub Pages (se habilitado).
 - Referencias MDN: https://developer.mozilla.org/pt-BR/
 - CSS Gradient: https://cssgradient.io/
 
+## Contribuicao
+
+Este projeto foi desenvolvido em equipe durante a disciplina de Front-End Design Engineering na FIAP. Cada integrante contribuiu com commits especificos:
+
+- **Arthur Mendes Garcia**: Estrutura base, CSS, JavaScript e documentacao
+- **Vinicius Oliveira**: Paginas de integrantes, sobre e animacoes
+- **Eduardo Conde**: Paginas FAQ, contato e acessibilidade
+- **Carlos Henrique**: Paginas de solucao, Lumi e ajustes finais
+
 ## Licenca
 
 Este projeto foi desenvolvido para fins academicos na FIAP.
