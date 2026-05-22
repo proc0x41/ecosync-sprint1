@@ -1161,6 +1161,350 @@ p {
 }
 
 /* ============================================
+   NOVA HOME PAGE
+   ============================================ */
+.section-container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+}
+
+.section-title {
+    text-align: center;
+    font-size: clamp(2.8rem, 4vw, 4rem);
+    color: var(--text-inv);
+    margin-bottom: 6rem;
+}
+
+/* Hero -- Nova Home */
+.hero--home {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12rem 6rem 6rem;
+    background: 
+        linear-gradient(135deg, rgba(15, 31, 20, 0.95) 0%, rgba(26, 77, 46, 0.9) 100%),
+        url('../img/hero-bg.jpg') center/cover no-repeat;
+    gap: 4rem;
+}
+
+.hero__content {
+    flex: 1;
+    max-width: 60rem;
+}
+
+.hero__badge {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background: rgba(79, 157, 105, 0.2);
+    border: 0.1rem solid rgba(79, 157, 105, 0.4);
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--primary-light);
+    margin-bottom: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.hero__title {
+    font-size: clamp(3.6rem, 5vw, 6rem);
+    line-height: 1.1;
+    margin-bottom: 2.4rem;
+    color: var(--text-inv);
+}
+
+.hero__title span {
+    color: var(--primary-light);
+}
+
+.hero__cta {
+    display: flex;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+    margin-top: 3.2rem;
+}
+
+.hero__btn--secondary {
+    background: transparent;
+    border: 0.2rem solid var(--primary);
+    color: var(--primary);
+    box-shadow: none;
+}
+
+.hero__btn--secondary:hover {
+    background: var(--primary);
+    color: var(--text-inv);
+}
+
+.hero__visual {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__lumi-preview {
+    text-align: center;
+}
+
+.lumi-preview__avatar {
+    width: 18rem;
+    height: 18rem;
+    background: radial-gradient(circle, var(--primary-light), var(--primary));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: var(--text-inv);
+    box-shadow: 0 0 4rem rgba(79, 157, 105, 0.5);
+    animation: lumi-pulse 3s ease-in-out infinite;
+    margin-bottom: 1.6rem;
+}
+
+.lumi-preview__xp {
+    font-size: 1.6rem;
+    color: var(--xp-gold);
+    font-weight: 700;
+}
+
+/* Como Funciona */
+.como-funciona {
+    padding: 10rem 0;
+    background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-panel) 50%, var(--bg-dark) 100%);
+}
+
+.passos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    flex-wrap: wrap;
+}
+
+.passo {
+    flex: 1;
+    min-width: 28rem;
+    max-width: 32rem;
+    text-align: center;
+    padding: 3.2rem;
+    background: linear-gradient(145deg, var(--bg-panel), var(--bg-card));
+    border-radius: var(--border-radius-lg);
+    border: 0.1rem solid rgba(79, 157, 105, 0.15);
+}
+
+.passo__num {
+    width: 6rem;
+    height: 6rem;
+    background: linear-gradient(135deg, var(--primary), var(--primary-hover));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: var(--text-inv);
+    margin: 0 auto 2.4rem;
+}
+
+.passo__tit {
+    color: var(--primary-light);
+    margin-bottom: 1.2rem;
+    font-size: 2.2rem;
+}
+
+.passo__txt {
+    color: var(--text-muted);
+    margin: 0;
+}
+
+.passo__seta {
+    font-size: 3.2rem;
+    color: var(--primary);
+    font-weight: 700;
+}
+
+/* Dados */
+.dados {
+    padding: 8rem 0;
+    background: var(--bg-dark-med);
+}
+
+.dados__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3.2rem;
+}
+
+.dado {
+    text-align: center;
+    padding: 2.4rem;
+}
+
+.dado__num {
+    font-size: clamp(3.2rem, 5vw, 4.8rem);
+    font-weight: 800;
+    color: var(--xp-gold);
+    line-height: 1;
+    margin-bottom: 0.8rem;
+}
+
+.dado__label {
+    font-size: 1.5rem;
+    color: var(--text-muted);
+}
+
+/* CTA Final */
+.cta-final {
+    padding: 10rem 0;
+    text-align: center;
+    background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-dark-med) 100%);
+}
+
+.cta-final__tit {
+    font-size: clamp(2.4rem, 4vw, 3.6rem);
+    color: var(--text-inv);
+    margin-bottom: 1.6rem;
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-final__txt {
+    font-size: 1.8rem;
+    color: var(--text-muted);
+    margin-bottom: 4rem;
+}
+
+/* ============================================
+   CABECALHO COM LOGO
+   ============================================ */
+.cabecalho__logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__logo-img {
+    height: 4.8rem;
+    width: auto;
+}
+
+/* ============================================
+   RODAPE MELHORADO
+   ============================================ */
+.rodape {
+    background: linear-gradient(to top, var(--bg-dark), var(--bg-dark-med));
+    padding: 4rem 2.4rem;
+    text-align: center;
+    border-top: 0.1rem solid rgba(79, 157, 105, 0.2);
+}
+
+.rodape__content {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.rodape__logo {
+    margin-bottom: 2.4rem;
+}
+
+.rodape__logo-img {
+    height: 6rem;
+    width: auto;
+    opacity: 0.8;
+}
+
+.rodape__texto {
+    color: var(--text-muted);
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.rodape__copy {
+    color: var(--text-muted);
+    font-size: 1.3rem;
+    opacity: 0.7;
+    margin: 0;
+}
+
+/* ============================================
+   INTEGRANTES COM FOTOS
+   ============================================ */
+.integrante__foto {
+    width: 100%;
+    height: 32rem;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+}
+
+/* ============================================
+   RESPONSIVIDADE - NOVA HOME
+   ============================================ */
+@media (max-width: 991px) {
+    .hero--home {
+        flex-direction: column;
+        text-align: center;
+        padding: 12rem 2.4rem 6rem;
+    }
+    
+    .hero__content {
+        max-width: 100%;
+    }
+    
+    .hero__cta {
+        justify-content: center;
+    }
+    
+    .dados__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .passos {
+        flex-direction: column;
+    }
+    
+    .passo__seta {
+        transform: rotate(90deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero--home {
+        min-height: auto;
+        padding-top: 10rem;
+    }
+    
+    .lumi-preview__avatar {
+        width: 14rem;
+        height: 14rem;
+        font-size: 2.4rem;
+    }
+    
+    .dados__grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.6rem;
+    }
+    
+    .passo {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .dados__grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero__btn--secondary {
+        width: 100%;
+    }
+}
+
+/* ============================================
    UTILITARIOS
    ============================================ */
 .sr-only {

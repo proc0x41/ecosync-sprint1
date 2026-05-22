@@ -12,7 +12,9 @@
     <header class="cabecalho">
         <nav class="cabecalho__nav">
             <div class="cabecalho__logo">
-                <a href="index.html" class="cabecalho__logo-link">Eco<span>Sync</span></a>
+                <a href="index.html" class="cabecalho__logo-link">
+                    <img src="./assets/img/logo.png" alt="EcoSync Logo" class="cabecalho__logo-img">
+                </a>
             </div>
             <button class="cabecalho__menu-btn" aria-label="Abrir menu">
                 <span class="cabecalho__menu-icon"></span>
@@ -25,7 +27,7 @@
                     <a class="cabecalho__a" href="sobre.html">Sobre</a>
                 </li>
                 <li class="cabecalho__li">
-                    <a class="cabecalho__a" href="solucao.html">Solução</a>
+                    <a class="cabecalho__a" href="solucao.html">Solucao</a>
                 </li>
                 <li class="cabecalho__li">
                     <a class="cabecalho__a" href="lumi.html">Lumi</a>
@@ -43,38 +45,90 @@
         </nav>
     </header>
 
-    <main class="conteudo">
-        <section class="hero" data-animate>
-            <div class="hero__container">
-                <h1 class="hero__title">Eco<span>Sync</span></h1>
-                <p class="hero__text">Engajar para regenerar. Transforme suas ações sustentáveis em impacto real com o Avatar Lumi.</p>
-                <a href="solucao.html" class="hero__btn">Conheça a Solução</a>
+    <main>
+        <section class="hero hero--home">
+            <div class="hero__content">
+                <div class="hero__badge">Challenge 2026 - Sprint 1</div>
+                <h1 class="hero__title">Transforme suas acoes sustentaveis em <span>impacto real</span></h1>
+                <p class="hero__text">O EcoSync e a primeira plataforma brasileira que conecta a sustentabilidade corporativa com gamificacao e um avatar evolutivo.</p>
+                <div class="hero__cta">
+                    <a href="solucao.html" class="hero__btn hero__btn--primary">Conheca a plataforma</a>
+                    <a href="lumi.html" class="hero__btn hero__btn--secondary">Ver o Avatar Lumi</a>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="hero__lumi-preview">
+                    <div class="lumi-preview__avatar">Lumi</div>
+                    <div class="lumi-preview__xp">XP: 1.250</div>
+                </div>
             </div>
         </section>
 
-        <div class="conteudo__container">
-            <section class="conteudo__sec">
-                <h2 class="conteudo__tit">O que é o EcoSync?</h2>
-                <p class="conteudo__txt">Uma plataforma inovadora que utiliza gamificação para engajar colaboradores e usuários em ações sustentáveis, transformando economia de CO2 em experiências visuais e recompensas digitais.</p>
-                <a href="sobre.html" class="conteudo__btn">Saiba Mais</a>
-            </section>
+        <section class="como-funciona">
+            <div class="section-container">
+                <h2 class="section-title">Como funciona?</h2>
+                <div class="passos">
+                    <div class="passo">
+                        <div class="passo__num">1</div>
+                        <h3 class="passo__tit">Registre</h3>
+                        <p class="passo__txt">Cadastre suas acoes sustentaveis: bike, transporte publico, reciclagem, economia de energia.</p>
+                    </div>
+                    <div class="passo__seta">&#8594;</div>
+                    <div class="passo">
+                        <div class="passo__num">2</div>
+                        <h3 class="passo__tit">Acumule XP</h3>
+                        <p class="passo__txt">Cada acao converte CO2 evitado em XP verde. Quanto mais sustentavel, mais XP voce ganha.</p>
+                    </div>
+                    <div class="passo__seta">&#8594;</div>
+                    <div class="passo">
+                        <div class="passo__num">3</div>
+                        <h3 class="passo__tit">Evolua</h3>
+                        <p class="passo__txt">Seu Avatar Lumi evolui com cosméticos exclusivos, rankings e conquistas na empresa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <section class="conteudo__sec">
-                <h2 class="conteudo__tit">Avatar Lumi</h2>
-                <p class="conteudo__txt">Seu companheiro virtual que evolui conforme suas escolhas sustentáveis. Cada ação positiva para o planeta alimenta o crescimento e personalização do Lumi.</p>
-                <a href="lumi.html" class="conteudo__btn">Conheça o Lumi</a>
-            </section>
+        <section class="dados">
+            <div class="section-container">
+                <div class="dados__grid">
+                    <div class="dado">
+                        <div class="dado__num">12.5k</div>
+                        <div class="dado__label">kg de CO2 evitados</div>
+                    </div>
+                    <div class="dado">
+                        <div class="dado__num">8.3k</div>
+                        <div class="dado__label">colaboradores ativos</div>
+                    </div>
+                    <div class="dado">
+                        <div class="dado__num">150+</div>
+                        <div class="dado__label">empresas parceiras</div>
+                    </div>
+                    <div class="dado">
+                        <div class="dado__num">98%</div>
+                        <div class="dado__label">satisfacao dos usuarios</div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <section class="conteudo__sec">
-                <h2 class="conteudo__tit">Impacto Mensurável</h2>
-                <p class="conteudo__txt">Registre atividades sustentáveis, acompanhe sua redução de carbono e participe de rankings corporativos. Transforme dados em ações concretas pelo meio ambiente.</p>
-                <a href="solucao.html" class="conteudo__btn">Ver Plataforma</a>
-            </section>
-        </div>
+        <section class="cta-final">
+            <div class="section-container">
+                <h2 class="cta-final__tit">Pronto para transformar a sustentabilidade da sua empresa?</h2>
+                <p class="cta-final__txt">Junte-se as empresas que ja estao engajando seus colaboradores com o EcoSync.</p>
+                <a href="contato.html" class="hero__btn hero__btn--primary">Fale conosco</a>
+            </div>
+        </section>
     </main>
 
     <footer class="rodape">
-        <p>PCD - 2026 &copy; Todos os direitos reservados</p>
+        <div class="rodape__content">
+            <div class="rodape__logo">
+                <img src="./assets/img/logo.png" alt="EcoSync" class="rodape__logo-img">
+            </div>
+            <p class="rodape__texto">Challenge 2026 - Sprint 1 | 1TDSPW-2026</p>
+            <p class="rodape__copy">&copy; 2026 EcoSync. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
