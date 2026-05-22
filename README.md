@@ -57,10 +57,10 @@ ecosync-sprint1/
 
 | Nome | RM | GitHub | LinkedIn |
 |------|-----|--------|----------|
-| Arthur Mendes Garcia | 571703 | [proc0x41](https://github.com/proc0x41) | - |
-| Vinicius Oliveira | 561862 | - | - |
-| Eduardo Oliveira Conde | 573163 | - | - |
-| Carlos Henrique | 571798 | - | - |
+| Arthur Mendes Garcia | 571703 | [proc0x41](https://github.com/proc0x41) | [LinkedIn](https://www.linkedin.com/in/arthur-mendes-garcia-bb32891b4/) |
+| Vinicius Oliveira | 561862 | [Vinicius-0lvr](https://github.com/Vinicius-0lvr) | [LinkedIn](https://www.linkedin.com/in/vinicius-oliveira-101137252/) |
+| Eduardo Oliveira Conde | 573163 | [eduardo-oliveira-conde](https://github.com/eduardo-oliveira-conde) | [LinkedIn](https://www.linkedin.com/in/eduardo-conde-663213348/) |
+| Carlos Henrique Morais Pereira | 571798 | [cacapereira1](https://github.com/cacapereira1) | [LinkedIn](https://www.linkedin.com/in/carlos-henrique-morais-402312252/) |
 
 **Turma:** 1TDSPW-2026  
 **Professor:** Prof. Alexandre C. de Jesus
