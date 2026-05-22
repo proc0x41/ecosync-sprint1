@@ -143,6 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
+    // Validacao de email com regex
     function validarEmail(email) {
         const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return regex.test(email);
