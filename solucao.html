@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solucao - EcoSync</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__nav">
+            <div class="cabecalho__logo">
+                <a href="index.html" class="cabecalho__logo-link">Eco<span>Sync</span></a>
+            </div>
+            <button class="cabecalho__menu-btn" aria-label="Abrir menu">
+                <span class="cabecalho__menu-icon"></span>
+            </button>
+            <ul class="cabecalho__ul">
+                <li class="cabecalho__li">
+                    <a class="cabecalho__a" href="index.html">Home</a>
+                </li>
+                <li class="cabecalho__li">
+                    <a class="cabecalho__a" href="sobre.html">Sobre</a>
+                </li>
+                <li class="cabecalho__li cabecalho__li--active">
+                    <a class="cabecalho__a cabecalho__a--active" href="solucao.html">Solucao</a>
+                </li>
+                <li class="cabecalho__li">
+                    <a class="cabecalho__a" href="lumi.html">Lumi</a>
+                </li>
+                <li class="cabecalho__li">
+                    <a class="cabecalho__a" href="faq.html">FAQ</a>
+                </li>
+                <li class="cabecalho__li">
+                    <a class="cabecalho__a" href="contato.html">Contato</a>
+                </li>
+                <li class="cabecalho__li">
+                    <a class="cabecalho__a" href="integrantes.html">Equipe</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="solucao">
+        <div class="solucao__container">
+            <h1 class="solucao__tit">Plataforma EcoSync</h1>
+            <p class="solucao__subtit">A solucao completa para engajamento sustentavel corporativo</p>
+            
+            <section class="recursos">
+                <article class="recurso">
+                    <div class="recurso__icone">🚲</div>
+                    <h3 class="recurso__tit">Mobilidade Sustentavel</h3>
+                    <p class="recurso__txt">Registre deslocamentos de bicicleta, caminhada e transporte publico. Cada km evitado gera XP verde e reduz CO2.</p>
+                </article>
+
+                <article class="recurso">
+                    <div class="recurso__icone">⚡</div>
+                    <h3 class="recurso__tit">Economia de Energia</h3>
+                    <p class="recurso__txt">Monitore o consumo de energia e receba dicas personalizadas para reduzir sua pegada de carbono.</p>
+                </article>
+
+                <article class="recurso">
+                    <div class="recurso__icone">♻️</div>
+                    <h3 class="recurso__tit">Reciclagem e Residuos</h3>
+                    <p class="recurso__txt">Registre acoes de reciclagem e reducao de residuos. Acompanhe seu impacto ao longo do tempo.</p>
+                </article>
+
+                <article class="recurso">
+                    <div class="recurso__icone">🏆</div>
+                    <h3 class="recurso__tit">Rankings e Streaks</h3>
+                    <p class="recurso__txt">Compita com colegas em rankings saudaveis. Mantenha streaks diarias de acoes sustentaveis.</p>
+                </article>
+
+                <article class="recurso">
+                    <div class="recurso__icone">📊</div>
+                    <h3 class="recurso__tit">Relatorios Detalhados</h3>
+                    <p class="recurso__txt">Dashboards completos para gestores acompanharem metricas ESG e evolucao das equipes.</p>
+                </article>
+
+                <article class="recurso">
+                    <div class="recurso__icone">🤖</div>
+                    <h3 class="recurso__tit">Assistente Watson</h3>
+                    <p class="recurso__txt">Suporte conversacional com IBM Watson Assistant para tirar duvidas e receber dicas de sustentabilidade.</p>
+                </article>
+            </section>
+
+            <section class="calculadora">
+                <h2 class="calculadora__tit">Calculadora de Economia de CO2</h2>
+                
+                <form class="calculadora__form">
+                    <div class="calculadora__grid">
+                        <div class="form__grupo">
+                            <label for="km-bike" class="form__label">Km de bicicleta (semana)</label>
+                            <input type="number" id="km-bike" class="form__input" value="0" min="0">
+                        </div>
+
+                        <div class="form__grupo">
+                            <label for="km-transporte" class="form__label">Km de transporte publico (semana)</label>
+                            <input type="number" id="km-transporte" class="form__input" value="0" min="0">
+                        </div>
+
+                        <div class="form__grupo">
+                            <label for="energia" class="form__label">Economia de energia (kWh/mes)</label>
+                            <input type="number" id="energia" class="form__input" value="0" min="0">
+                        </div>
+                    </div>
+                </form>
+
+                <div class="calculadora__resultado">
+                    <p class="calculadora__resultado-tit">Economia de CO2 Estimada</p>
+                    <p class="calculadora__resultado-valor">0.0</p>
+                    <p class="calculadora__resultado-unidade">kg de CO2 evitados/mes</p>
+                    
+                    <div class="calculadora__resultado-xp">
+                        <p class="calculadora__resultado-xp-label">XP Verde Ganho</p>
+                        <p class="calculadora__resultado-xp-valor">0</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <p>PCD - 2026 &copy; Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
